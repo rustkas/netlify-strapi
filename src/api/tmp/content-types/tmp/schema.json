@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "tmps",
+  "info": {
+    "singularName": "tmp",
+    "pluralName": "tmps",
+    "displayName": "Tmp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tmp_media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "richContent": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.6.2",
+    "@strapi/plugin-users-permissions": "4.6.2",
+    "@strapi/strapi": "4.6.2",
+    "@strapi/utils": "^4.6.2",
+    "@supabase/supabase-js": "^2.8.0",
+    "better-sqlite3": "8.0.1",
+    "strapi-provider-upload-supabase-strage": "^1.0.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b0271ed9-67d4-4b9c-9d2d-7c0e0e6ece6d"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
