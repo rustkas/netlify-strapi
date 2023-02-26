@@ -1,28 +1,28 @@
 /*
-  Content-Type: text/html
+Content-Type: text/html
 
 /*.js
-  Content-Type: text/javascript
+Content-Type: text/javascript
 
 /*.css
-  Content-Type: text/css
+Content-Type: text/css
 
 /*.woff
-  Content-Type: font/woff
-  Cache-Control: public, max-age=31536000, immutable
+Content-Type: font/woff
+Cache-Control: public, max-age=31536000, immutable
 
 /*.woff2
-  Content-Type: font/woff2
-  Cache-Control: public, max-age=31536000, immutable
+Content-Type: font/woff2
+Cache-Control: public, max-age=31536000, immutable
 
 /*.png
-  Content-Type: image/png
-  Cache-Control: public, max-age=31536000, immutable
+Content-Type: image/png
+Cache-Control: public, max-age=31536000, immutable
 
 /*.svg
-  Content-Type: image/svg+xml
-  Cache-Control: public, max-age=31536000, immutable
+Content-Type: image/svg+xml
+Cache-Control: public, max-age=31536000, immutable
 
 /favicon.ico
-  Content-Type: image/x-icon
-  Cache-Control: public, max-age=31536000, immutable
+Content-Type: image/x-icon
+Cache-Control: public, max-age=31536000, immutable
