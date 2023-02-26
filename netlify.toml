@@ -33,9 +33,12 @@
     force=true
     [headers.values]
       Content-Type = "text/html"
+      X-Content-Type-Options = "nosniff"
+
 
    [[headers]]
     for = "/main.*.js"
     force=true
     [headers.values]
-      Content-Type = "text/html"     
+      Content-Type = "text/html"
+      X-Content-Type-Options = "nosniff"   
