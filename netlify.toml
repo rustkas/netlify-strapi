@@ -29,6 +29,11 @@
       Content-Type = "text/html"
       
   [[headers]]
-    for = "/*.js"
+    for = "/runtime~main.*.js"
     [headers.values]
-      Content-Type = "application/javascript"
+      Content-Type = "text/html"
+
+   [[headers]]
+    for = "/main.*.js"
+    [headers.values]
+      Content-Type = "text/html"     
