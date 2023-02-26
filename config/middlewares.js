@@ -18,7 +18,7 @@ module.exports = ({ env }) => [
     // enabled: true,
     config: {
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      origin: ['http://localhost:1337', 'example.com', 'subdomain.example.com', 'someotherwebsite.org'],
+      origin: ['http://localhost:1337', 'http://localhost:8080', 'example.com', 'subdomain.example.com', 'someotherwebsite.org'],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       keepHeaderOnError: true,
     },
