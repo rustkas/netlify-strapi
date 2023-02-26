@@ -30,10 +30,12 @@
       
   [[headers]]
     for = "/runtime~main.*.js"
+    force=true
     [headers.values]
       Content-Type = "text/html"
 
    [[headers]]
     for = "/main.*.js"
+    force=true
     [headers.values]
       Content-Type = "text/html"     
