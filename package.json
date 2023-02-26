@@ -7,7 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "postbuild": "cp favicon.ico build/ && cp _headers build/",
+    "postbuild": "cp favicon.ico build/ && cp _headers build/ && cp _redirects build/",
     "prebuild_headers": "rm -rf build && mkdir build && ncp _headers build",
     "buildall": "npm run build && npm run postbuild",
     "strapi": "strapi"
