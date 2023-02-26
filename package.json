@@ -8,7 +8,6 @@
     "start": "strapi start",
     "build": "strapi build",
     "postbuild": "cp favicon.ico build/ ",
-    "prebuild_headers": "rm -rf build && mkdir build && ncp _headers build",
     "buildall": "npm run build && npm run postbuild",
     "strapi": "strapi"
   },
@@ -31,11 +30,8 @@
     "uuid": "b0271ed9-67d4-4b9c-9d2d-7c0e0e6ece6d"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "ncp": "^2.0.0"
-  }
+  "license": "MIT"
 }
