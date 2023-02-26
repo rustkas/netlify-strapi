@@ -7,9 +7,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "postbuild": "cp favicon.ico build",
-    "prebuild_headers": "cp _headers build",
-    "buildall": "npm run prebuild_headers && npm run build && npm run postbuild",
+    "postbuild": "cp favicon.ico build/ && cp _headers build/",
+    "prebuild_headers": "rm -rf build && mkdir build && ncp _headers build",
+    "buildall": "npm run build && npm run postbuild",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -34,5 +34,8 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
 }
