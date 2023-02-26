@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi develop",
+    "build": "strapi build",
     "postbuild": "cp favicon.ico build/ ",
     "buildall": "npm run build && npm run postbuild",
     "strapi": "strapi"
