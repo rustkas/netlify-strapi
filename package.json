@@ -8,7 +8,8 @@
     "start": "strapi start",
     "build": "strapi build",
     "postbuild": "cp favicon.ico build",
-    "buildall": "npm run build && npm run postbuild",
+    "prebuild_headers": "cp _headers build",
+    "buildall": "npm run prebuild_headers && npm run build && npm run postbuild",
     "strapi": "strapi"
   },
   "dependencies": {
