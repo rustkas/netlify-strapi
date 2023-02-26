@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "postbuild": "cp public/favicon.png build",
+    "postbuild": "cp favicon.png build",
+    "buildall": "npm run build && npm run postbuild",
     "strapi": "strapi"
   },
   "dependencies": {
