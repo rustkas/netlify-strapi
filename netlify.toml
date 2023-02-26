@@ -25,20 +25,20 @@
 
 
 
-[[headers]]
-    for = "/*"
-    [headers.values]
-      Content-Type = "text/html"
+# [[headers]]
+#     for = "/*"
+#     [headers.values]
+#       Content-Type = "text/html"
       
 
-[[redirects]]
-  from = "/admin/runtime~main.*.js"
-  to = "/admin/runtime~main.*.js"
-  headers = { Content-Type = "text/html; charset=utf-8", X-Content-Type-Options = "nosniff" }
-  force = true
+# [[redirects]]
+#   from = "/admin/runtime~main.*.js"
+#   to = "/admin/runtime~main.*.js"
+#   headers = { Content-Type = "text/html; charset=utf-8", X-Content-Type-Options = "nosniff" }
+#   force = true
 
-[[redirects]]
-  from = "/admin/main.*.js"
-  to = "/admin/main.*.js"
-  headers = { Content-Type = "text/html; charset=utf-8", X-Content-Type-Options = "nosniff" }
-  force = true
+# [[redirects]]
+#   from = "/admin/main.*.js"
+#   to = "/admin/main.*.js"
+#   headers = { Content-Type = "text/html; charset=utf-8", X-Content-Type-Options = "nosniff" }
+#   force = true
