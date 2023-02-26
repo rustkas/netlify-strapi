@@ -1,16 +1,16 @@
 # example netlify.toml
-# [build]
-#   command = "npm run buildall"
-#   functions = "netlify/functions"
-#   publish = "build"
+[build]
+  command = "npm run buildall"
+  functions = "netlify/functions"
+  publish = "build"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
-  [[redirects]]
-    from = "/*"
-    to = "/"
-    status = 200
-    force = true
+  # [[redirects]]
+  #   from = "/*"
+  #   to = "/"
+  #   status = 200
+  #   force = true
 
 
   ## (optional) Settings for Netlify Dev
