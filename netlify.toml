@@ -22,3 +22,13 @@
     publish = "build" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+      Content-Type = "text/html"
+      
+  [[headers]]
+    for = "/*.js"
+    [headers.values]
+      Content-Type = "text/javascript"
