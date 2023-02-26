@@ -31,4 +31,4 @@
   [[headers]]
     for = "/*.js"
     [headers.values]
-      Content-Type = "text/javascript"
+      Content-Type = "application/javascript"
