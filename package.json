@@ -16,6 +16,7 @@
     "@strapi/utils": "^4.6.2",
     "@supabase/supabase-js": "^2.8.0",
     "better-sqlite3": "8.0.1",
+    "pg": "^8.9.0",
     "strapi-plugin-netlify-deployments": "^2.0.0",
     "strapi-plugin-users-permissions": "^3.6.11",
     "strapi-provider-upload-supabase-strage": "^1.0.2"
